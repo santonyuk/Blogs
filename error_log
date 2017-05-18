@@ -1,0 +1,31 @@
+[18-May-2017 16:06:45 America/Chicago] PHP Fatal error:  Class 'DatingDB' not found in /home/sofiya/public_html/328/Blogs/index.php on line 16
+[18-May-2017 16:06:45 America/Chicago] Fatal error: Class 'DatingDB' not found
+[18-May-2017 16:06:45 America/Chicago] [328/Blogs/index.php:16] 
+[18-May-2017 16:07:03 America/Chicago] PHP Fatal error:  Class 'BlogsDB' not found in /home/sofiya/public_html/328/Blogs/index.php on line 16
+[18-May-2017 16:07:03 America/Chicago] Fatal error: Class 'BlogsDB' not found
+[18-May-2017 16:07:03 America/Chicago] [328/Blogs/index.php:16] 
+[18-May-2017 16:41:21 America/Chicago] HTTP 404 (GET /pages/styles/styles.css)
+[18-May-2017 16:41:21 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:41:21 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 16:41:21 America/Chicago] HTTP 404 (GET /pages/images/trumpet.png)
+[18-May-2017 16:41:21 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:41:21 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 16:42:23 America/Chicago] HTTP 404 (GET /pages/styles/styles.css)
+[18-May-2017 16:42:23 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:42:23 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 16:42:23 America/Chicago] HTTP 404 (GET /pages/images/trumpet.png)
+[18-May-2017 16:42:23 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:42:23 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 16:44:01 America/Chicago] HTTP 404 (GET /pages/styles/styles.css)
+[18-May-2017 16:44:01 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:44:01 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 16:44:04 America/Chicago] HTTP 404 (GET /pages/images/trumpet.png)
+[18-May-2017 16:44:04 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 16:44:04 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 17:01:16 America/Chicago] HTTP 404 (GET /pages/images/trumpet.png)
+[18-May-2017 17:01:16 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[18-May-2017 17:01:16 America/Chicago] [328/Blogs/index.php:24] Base->run()
+[18-May-2017 17:08:34 America/Chicago] include(../include/nav.html): failed to open stream: No such file or directory
+[18-May-2017 17:08:34 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[18-May-2017 17:08:34 America/Chicago] [328/Blogs/index.php:17] Base->{closure}()
+[18-May-2017 17:08:34 America/Chicago] [328/Blogs/index.php:17] include()

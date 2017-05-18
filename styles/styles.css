@@ -1,0 +1,28 @@
+/* Navbar */
+#sidenav {
+	height: 500px;
+	background-color: lightgrey;
+	margin-top: 1em;
+	margin-right: -1em;
+	padding: 1em 0;
+}
+
+nav h2 {
+	text-align: center;
+}
+
+nav img {
+	display: block;
+	width: 75%;
+	height: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+	padding: 1em;
+}
+
+nav li {
+	list-style: none;
+}
