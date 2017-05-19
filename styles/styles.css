@@ -2,9 +2,9 @@
 #sidenav {
 	height: 500px;
 	background-color: lightgrey;
-	margin-top: 1em;
-	margin-right: -1em;
-	padding: 1em 0;
+	margin-top: 14px;
+	margin-right: -1px;
+	padding: 1px 0;
 }
 
 nav h2 {
@@ -20,29 +20,43 @@ nav img {
 }
 
 nav ul {
-	padding: 1em;
+	padding: 1px;
 }
 
 nav li {
 	list-style: none;
+	color: black;
 }
+
+nav a {
+	color: black;
+}
+
+
+/* Body Styles */
+
+
 
 /*About Us Styles */
 .jumbotron {
+	background: lightgrey;
     border-radius: 0px;
 	margin-top: 14px;
 	margin-bottom:6px;
-	margin-left: 16px;
-	margin-right: auto;
 }
+
+#about {
+    padding: 1em 3em 1em 3em;
+  }
 
 .aboutLogo {
     float: right;
     min-width: 100px;
     max-width: 150px;
-    margin-right: 3em;
+    margin-right: 3px;
   }
   
-.comments {
+#comments {
+	text-indent: 5px;
     margin: 1em 3em 1em 3em;
 }
