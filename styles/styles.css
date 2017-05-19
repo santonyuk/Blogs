@@ -26,3 +26,23 @@ nav ul {
 nav li {
 	list-style: none;
 }
+
+/*About Us Styles */
+.jumbotron {
+    border-radius: 0px;
+	margin-top: 14px;
+	margin-bottom:6px;
+	margin-left: 16px;
+	margin-right: auto;
+}
+
+.aboutLogo {
+    float: right;
+    min-width: 100px;
+    max-width: 150px;
+    margin-right: 3em;
+  }
+  
+.comments {
+    margin: 1em 3em 1em 3em;
+}

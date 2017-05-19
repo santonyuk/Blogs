@@ -21,6 +21,17 @@ $f3->route('GET /',
 		$view = new View;
 		echo $view->render('pages/home.html');
 	});
+$f3->route('GET /about',
+	function() {
+		$view = new View;
+		echo $view->render('pages/about.html');
+	});
+
+	$f3->route('POST /',
+	function() {
+		$view = new View;
+		echo $view->render('pages/about.html');
+	});
 
 $f3->run();
 
