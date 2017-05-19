@@ -36,6 +36,45 @@ nav a {
 /* Body Styles */
 
 
+.page-container {
+    margin: 1em 0 1em 0;
+    padding: 0 1px 1px 1px;
+  }
+  
+.post-box {
+	margin: 1px 0 1px 0;
+    padding: 0 1px;
+  }
+  
+  .post {
+    padding: 14px;
+    background: lightgrey;
+	text-align: center;
+  }
+  
+  .blog-text {
+	text-align: left;
+  }
+  
+  /* Classes */
+  .top-bottom-border {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+	text-align: left;
+  }
+  
+  .bottom-border {
+    border-bottom: solid 1px black;
+  }
+  
+  .extend {
+    margin: 0 -1em 5px -1em;
+    padding: 5px 1em 5px 1em;
+  }
+  
+  .center {
+    text-align: center;
+  }
 
 /*About Us Styles */
 .jumbotron {

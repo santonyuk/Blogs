@@ -22,30 +22,23 @@
 <? include('include/nav.html') ?>
 
 <!-- Blog cards -->
-    <div class="row col-md-10 col-xs-12 page-container"> <!-- separates cards from nav --> 
+    <div class="row col-md-9 col-xs-12 page-container"> <!-- separates cards from nav --> 
       <!-- Loop the card boxes -->
-        <div class="card-box col-md-4 col-sm-6"> <!-- card outer boxes to add margins -->
-			<div class="card"> <!-- card inner boxes -->
-				<div id="user">
-					<img src="images/user2.png" alt="user2.png" height="150px" width="150px" />
-					<p>Joe Schmoe Blogger</p>
-				</div>
-				<p class="top-bottom-border extend"><a href="/328/blogs/user?id=1">view blogs</a>
-				  <span class="pull-right">Total: 10</span></p>
-				
-				<p>Something from my latest blog:</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam et tortor
-									sodales commodo. Nam sit amet elit et quam hendrerit tincidunt. Donec placerat justo eget justo
-									pulvinar, ut ultrices libero congue. Nunc non leo malesuada, varius odio eget, iaculis tellus.
-									Nullam vel sollicitudin lorem. Sed ullamcorper pulvinar odio, at luctus odio iaculis aliquet.
-									Curabitur in odio egestas, venenatis dui efficitur, tincidunt sem. Mauris tempor rutrum purus
-									eu convallis. Nam eget tellus a nunc rhoncus consequat eget non sapien. Nulla suscipit malesuada
-									magna. Curabitur convallis auctor lectus, quis tincidunt mauris.</p>
+        <div class="post-box col-md-4 col-sm-6"> <!-- card outer boxes to add margins -->
+			<div class="post"> <!-- card inner boxes -->
+				<img src="images/user2.png" alt="user2.png" height="150px" width="150px" />
+				<p class="center">Joe Schmoe Blogger</p>
+				<p class="top-bottom-border extend pull"><a href="#">view blogs</a>
+				<span class="pull-right">Total: 10</span></p>
+				<div class="blog-text">
+					<p>Something from my latest blog:<br>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac aliquam diam, in venenatis quam.
+					Proin suscipit nulla et risus dictum gravida."</p>
+				</div>	
 			</div> <!-- card -->
         </div> <!-- card box -->
-	</div>	
-
-
+	</div>
+	
 
 </body>
 </html>
