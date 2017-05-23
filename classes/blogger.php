@@ -3,19 +3,19 @@
 class Blogger {
 	private $_bloggerId;
 	private $_username;
-	private $_name;
 	private $_portrait;
 	private $_bio;
-	private $_blog_counter;
+	private $_blogCounter;
+	private $_mostRecent;
 	
-	public function __construct($bloggerId=0, $username="", $name="",
-								$portrait="", $bio="", $counter="") {
+	public function __construct($bloggerId=0, $username="", $portrait="",
+								$bio="", $counter="", $mostRecent=0) {
 		$this->_bloggerId = $bloggerId;
 		$this->_username = $username;
-		$this->_name = $name;
 		$this->_portrait = $portrait;
 		$this->_bio = $bio;
-		$this->_blog_counter = $counter;
+		$this->_blogCounter = $counter;
+		$this->_mostRecent = $mostRecent;
 	}
 	
 	public function getBloggerId() {
@@ -32,14 +32,6 @@ class Blogger {
 	
 	public function setUsername() {
 		$this->_username = $username;
-	}
-	
-	public function getName() {
-		return $this->_name;
-	}
-	
-	public function setName() {
-		$this->_name = $name;
 	}
 	
 	public function getEmail() {
@@ -75,12 +67,18 @@ class Blogger {
 	}
 	
 	public function getBlogCounter() {
-		return $this->_counter;
+		return $this->_blogCounter;
 	}
 	
 	public function setBlogCounter($counter) {
-		$this->_counter = $counter;
+		$this->_blogCounter = $counter;
+	}
+	
+	public function getMostRecent() {
+		return $this->_mostRecent;
+	}
+	
+	public function setMostRecent($mostRecent) {
+		$this->_mostRecent = $mostRecent;
 	}
 }
-
-?>

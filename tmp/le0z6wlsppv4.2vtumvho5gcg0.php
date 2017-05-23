@@ -19,7 +19,7 @@
 <body>
 
 <!-- Navigation-->
-<include href="include/nav.html">
+<?php echo $this->render('include/nav.html',NULL,get_defined_vars(),0); ?>
 
 
 <div class="container"><!-- main container from nav -->

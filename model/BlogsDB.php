@@ -53,19 +53,67 @@ class BlogsDB
 		//create query
 		$query = "SELECT * FROM blogger ORDER BY mostRecent DESC";
            
-		   //prepare statement
-           $statement = $this->_pdo->prepare($query);
-		   
-           //bind param
-		   
-		   //execute
-           $statement->execute();
-		   
-		   //retrieve results
-		   $results = $statement->fetchAll(PDO::FETCH_ASSOC);
-		   
-		   
-		   //Return ID of inserted row
-            return $results;
-        }
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind param
+		
+		//execute
+		$statement->execute();
+		
+		//retrieve results
+		$results = $statement->fetchAll(PDO::FETCH_ASSOC);
+		
+		
+		//Return ID of inserted row
+		 return $results;
+	 }
+	
+	public function createUser($newUser, $email, $password)
+	{
+		
+		echo "<pre>";
+		var_dump($newUser);
+		echo "</pre>";
+		
+		//create query
+		$query = "INSERT INTO users
+					(username, email, password)
+					VALUES
+					(:username, :email, :password)";
+           
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind param
+		$statement->bindValue(':username', $newUser->getUsername(), PDO::PARAM_STR);
+		$statement->bindValue(':email', $email, PDO::PARAM_STR);
+		$statement->bindValue(':password', $password, PDO::PARAM_STR);
+		
+		//execute
+		$statement->execute();
+		
+		//get the id of the last entry
+		$id = $this->_pdo->lastInsertId();
+		
+		//create query
+		$query = "INSERT INTO blogger
+					(id, username, mostRecent, bio, portrait, blogCounter)
+					VALUES
+					(:id, :username, :mostRecent, :bio, :portrait, :blogCounter)";
+           
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind param
+		$statement->bindValue(':id', $id, PDO::PARAM_INT);
+		$statement->bindValue(':username', $newUser->getUsername(), PDO::PARAM_STR);
+		$statement->bindValue(':mostRecent', $newUser->getMostRecent(), PDO::PARAM_STR);
+		$statement->bindValue(':bio', $newUser->getBio(), PDO::PARAM_STR);
+		$statement->bindValue(':portrait', $newUser->getPortrait(), PDO::PARAM_STR);
+		$statement->bindValue(':blogCounter', $newUser->getBlogCounter(), PDO::PARAM_INT);
+		
+		//execute
+		$statement->execute();
 	}
+}
