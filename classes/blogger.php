@@ -3,17 +3,16 @@
 class Blogger {
 	private $_bloggerId;
 	private $_username;
-	private $_email;
-	private $_password;
+	private $_name;
 	private $_portrait;
 	private $_bio;
 	private $_blog_counter;
 	
-	public function __construct($bloggerId=0, $username="", $email="", $password="",
+	public function __construct($bloggerId=0, $username="",
 								$portrait="", $bio="", $counter="") {
 		$this->_bloggerId = $bloggerId;
 		$this->_username = $username;
-		$this->_email = $email;
+		$this->_name = $name;
 		$this->_password = $password;
 		$this->_portrait = $portrait;
 		$this->_bio = $bio;

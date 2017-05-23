@@ -3,16 +3,16 @@
 class BlogPost {
 	private $_blog_id;
 	private $_title;
-	private $_blog_post;
+	private $_content;
 	private $_word_counter;
 	private $_date_created;
 	
-	public function __construct($blogId = 0, $title="", $blogPost="",$dateCreated="") {
+	public function __construct($blogId = 0, $title="", $content="",$dateCreated="") {
 		$this->_id = $blogId;
 		$this->_title = $title;
-		$this->_blog_post = $blogPost;
+		$this->_content = $content;
 		$this->_date_created = $dateCreated;
-		$this->_word_counter = $wordCounter;
+		$this->_word_counter = str_word_count($content);
 	}
 	
 	public function getBlogId() {
@@ -31,20 +31,16 @@ class BlogPost {
 		$this->_title = $title;
 	}
 	
-	public function getBlogPost() {
-		return $this->_blog_post;
+	public function getContent() {
+		return $this->_content;
 	}
 	
-	public function setBlogPost($blogPost) {
-		$this->_blog_post = $blogPost;
+	public function setContent($content) {
+		$this->_content = $content;
 	}
 	
 	public function getWordCounter() {
-		return 10;
-	}
-	
-	public function setWordCounter($counter) {
-		$this->_word_counter = $counter;
+		return $counter;
 	}
 	
 	public function getDateCreated() {
