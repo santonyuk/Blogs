@@ -1,24 +1,32 @@
 <?php
-/*
- * Sofiya Antonyuk
- * IT 328
- * Blogs Website
- * http://sofiya.greenrivertech.net/328/Blogs
- */
-
 /**
-*
-*    Class provides access to member names in our database
-*    @author Sofiya Antonyuk <santonyuk2@mail.greenriver.edu>
-*    @version 1.0
-*    @copyright 2017
-*/
+   * Provides CRUD access to Blogs
+   *
+   * PHP version 5
+   *
+   * Table creation for sql query:
+   *
+   * @category   CategoryName
+   * @package    PackageName
+   * @author     Sofiya Antonyuk<santonyuk2@mail.greenriver.edu>
+   * @copyright  2017
+   * @version    1.0
+   */
 
 //Connect to DB
 class BlogsDB
 {
+	/**
+     * PHP Data Object
+     */
 	private $_pdo;
 	
+	// {{{ __construct()
+    /**
+     * Constructor for the BlogsDB Class
+     *
+     * @access public
+     */
 	function __construct()
 	{
 		//Require config file may need to change to absolute path in future
@@ -37,10 +45,19 @@ class BlogsDB
          catch(PDOException $e)
 		 {
              die("Error!: ". $e->getMessage());
-         } 
-		
+         } 	
 	}
-	
+	//}}}
+
+	//{{{ getDBContents()    
+    /**
+     * Retrieve the bloggers from the database with
+     * most recent posting date order
+     *
+     * @return Array  Returns all the bloggers from the database with
+     * most recent posting date order
+     * @access public
+     */
 	public function getContents()
 	{
 		//create query
@@ -61,7 +78,15 @@ class BlogsDB
 		//Return ID of inserted row
 		 return $results;
 	 }
+	 //}}}
 	 
+	 //{{{ getUserByUsername()
+    /**
+     * Gets user from user DB
+     *
+     * 
+     * @param   string    $username    the username to search the database for
+     */
 	public function getUserByUsername($username)
 	{
 		//create query
@@ -98,6 +123,21 @@ class BlogsDB
 		
 		return $results;
 	}
+	//}}}
+	
+	//{{{ verifyUsername()
+    
+    /**
+     * Check that the username is not blank or NULL. If username is blank or null,
+     * return an array with the username.
+     *
+     * Then check if the username equals one in the database. If this check returns true,
+     * return an array with the username.
+     *
+     * @param   string    $username    the username to search the database for
+     * @param 	string	$password	the password
+     * @access public
+     */
 	public function verifyUser($username, $password)
 	{
 		//create query
@@ -136,6 +176,17 @@ class BlogsDB
 		return array(true, "Location: http://sofiya.greenrivertech.net/328/Blogs/user-blogs");
 	}
 	
+	//{{{ createUser()
+    /**
+     * Adds a new user to the users table and inserts a new Blogger into
+     * bloggers table
+     *
+     * @param  Blogger   $newUser      Blogger object with the necessary data
+     * @param  string    $email        Email address for the user
+     * @param  string    $password     password
+     * @return int       The ID created by the database for the new Blogger
+     * @access public
+     */
 	public function createUser($newUser, $email, $password)
 	{
 		
@@ -180,7 +231,16 @@ class BlogsDB
 		//execute
 		$statement->execute();
 	}
+	//}}}
 	
+	//{{{ getMostRecentPost
+    /**
+     * Get most recent post
+     *
+     * @param     int     $user      The BlogPost's Id
+     * @return    Array   			Most recent post
+     * @access public
+     */ 
 	public function getMostRecentPost($user)
 	{
 		//query
@@ -203,4 +263,5 @@ class BlogsDB
 		
 		return $results;
 	}
+	//}}}
 }
