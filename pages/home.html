@@ -28,7 +28,7 @@
 						<div class="post"> <!-- post content -->
 							<img src="{{ @blogger->getPortrait() }}" alt="user2.png" height="150px" width="150px" />
 							<p class="center">{{ @blogger->getUserName() }}</p>
-							<p class="top-bottom-border extend pull"><a href="#">view blogs</a> <!-- /328/pages/user_blogs -->
+							<p class="top-bottom-border extend pull"><a href="/user?id={{ @blogger->getBloggerId() }}">view blogs</a> <!--create $f3 route-->
 							<span class="pull-right">Total: {{ @blogger->getBlogCounter() }}</span></p>
 							<div class="blog-text">
 								<p>Something from my latest blog:<br>
