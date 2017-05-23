@@ -8,12 +8,11 @@ class Blogger {
 	private $_bio;
 	private $_blog_counter;
 	
-	public function __construct($bloggerId=0, $username="",
+	public function __construct($bloggerId=0, $username="", $name="",
 								$portrait="", $bio="", $counter="") {
 		$this->_bloggerId = $bloggerId;
 		$this->_username = $username;
 		$this->_name = $name;
-		$this->_password = $password;
 		$this->_portrait = $portrait;
 		$this->_bio = $bio;
 		$this->_blog_counter = $counter;
@@ -33,6 +32,14 @@ class Blogger {
 	
 	public function setUsername() {
 		$this->_username = $username;
+	}
+	
+	public function getName() {
+		return $this->_name;
+	}
+	
+	public function setName() {
+		$this->_name = $name;
 	}
 	
 	public function getEmail() {
@@ -68,11 +75,11 @@ class Blogger {
 	}
 	
 	public function getBlogCounter() {
-		return $this->_blog_count;
+		return $this->_counter;
 	}
 	
 	public function setBlogCounter($counter) {
-		$this->setBlogCounter = $counter;
+		$this->_counter = $counter;
 	}
 }
 

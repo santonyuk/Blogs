@@ -47,4 +47,25 @@ class BlogsDB
          } 
 		
 	}
-}
+	
+	public function getContents()
+	{
+		//create query
+		$query = "SELECT * FROM blogger ORDER BY mostRecent DESC";
+           
+		   //prepare statement
+           $statement = $this->_pdo->prepare($query);
+		   
+           //bind param
+		   
+		   //execute
+           $statement->execute();
+		   
+		   //retrieve results
+		   $results = $statement->fetchAll(PDO::FETCH_ASSOC);
+		   
+		   
+		   //Return ID of inserted row
+            return $results;
+        }
+	}

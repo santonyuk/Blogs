@@ -215,3 +215,55 @@
 [22-May-2017 20:13:35 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
 [22-May-2017 20:13:35 America/Chicago] [328/Blogs/controller/controller.php:61] Base->run()
 [22-May-2017 20:13:35 America/Chicago] [328/Blogs/index.php:2] require_once('/home/sofiya/public_html/328/Blogs/controller/controller.php')
+[22-May-2017 23:47:17 America/Chicago] PHP Fatal error:  Class 'BlogsDB' not found in /home/sofiya/public_html/328/Blogs/controller/controller.php on line 15
+[22-May-2017 23:47:17 America/Chicago] Fatal error: Class 'BlogsDB' not found
+[22-May-2017 23:47:17 America/Chicago] [328/Blogs/controller/controller.php:15] 
+[22-May-2017 23:50:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sofiya/public_html/328/Blogs/model/BlogsDB.php on line 72
+[22-May-2017 23:50:31 America/Chicago] Fatal error: syntax error, unexpected '}'
+[22-May-2017 23:50:31 America/Chicago] [328/Blogs/model/BlogsDB.php:72] 
+[23-May-2017 00:06:28 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:06:28 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:06:28 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:08:04 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:08:04 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:08:04 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:08:06 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:08:06 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:08:06 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:08:23 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:08:23 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:08:23 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:10:03 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:10:03 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:10:03 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:10:47 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:10:47 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:10:47 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:11:23 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:11:23 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:11:23 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:12:03 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 26
+[23-May-2017 00:12:03 America/Chicago] Fatal error: syntax error, unexpected ')'
+[23-May-2017 00:12:03 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:26] 
+[23-May-2017 00:16:46 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::getName() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 29
+[23-May-2017 00:16:46 America/Chicago] Fatal error: Call to undefined method Blogger::getName()
+[23-May-2017 00:16:46 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:29] 
+[23-May-2017 00:18:31 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::getName() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 29
+[23-May-2017 00:18:31 America/Chicago] Fatal error: Call to undefined method Blogger::getName()
+[23-May-2017 00:18:31 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:29] 
+[23-May-2017 00:19:21 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::counter() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 31
+[23-May-2017 00:19:21 America/Chicago] Fatal error: Call to undefined method Blogger::counter()
+[23-May-2017 00:19:21 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:31] 
+[23-May-2017 00:20:27 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::counter() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 31
+[23-May-2017 00:20:27 America/Chicago] Fatal error: Call to undefined method Blogger::counter()
+[23-May-2017 00:20:27 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:31] 
+[23-May-2017 00:20:36 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::counter() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 31
+[23-May-2017 00:20:36 America/Chicago] Fatal error: Call to undefined method Blogger::counter()
+[23-May-2017 00:20:36 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:31] 
+[23-May-2017 00:20:54 America/Chicago] PHP Fatal error:  Call to undefined method Blogger::blogCounter() in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php on line 31
+[23-May-2017 00:20:54 America/Chicago] Fatal error: Call to undefined method Blogger::blogCounter()
+[23-May-2017 00:20:54 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.122y7ayggsyck.php:31] 
+[23-May-2017 00:33:22 America/Chicago] HTTP 404 (POST /sign-up)
+[23-May-2017 00:33:22 America/Chicago] [328/Blogs/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 00:33:22 America/Chicago] [328/Blogs/controller/controller.php:80] Base->run()
+[23-May-2017 00:33:22 America/Chicago] [328/Blogs/index.php:2] require_once('/home/sofiya/public_html/328/Blogs/controller/controller.php')

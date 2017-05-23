@@ -12,15 +12,34 @@ $f3 = Base::instance();
 $f3->set('DEBUG', 3);
 
 // Default route
-//$blogsDB = new BlogsDB();
+$blogsDB = new BlogsDB();
 
 //include("../include/nav.html");
 
 $f3->route('GET /',
-	function() {
-		$view = new View;
-		echo $view->render('pages/home.html');
+	function($f3) {
+		$contents = $GLOBALS['blogsDB']->getContents();
+		$bloggers = array();
+		
+		
+		foreach($contents as $key)
+		{
+			$blogger = new Blogger(0, $key['username'],
+								   $key['name'], $key['portrait'],
+								   $key['bio'], $key['blogCounter']);
+			
+			array_push($bloggers, $blogger);
+		}
+		
+		//echo "<pre>";
+		//var_dump($bloggers);
+		//echo "</pre>";
+		
+		$f3->set('content', $bloggers);
+		
+		echo Template::instance()->render('pages/home.html');
 	});
+
 $f3->route('GET /about',
 	function() {
 		$view = new View;

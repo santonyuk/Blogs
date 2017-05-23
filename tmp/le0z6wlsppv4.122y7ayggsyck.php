@@ -18,18 +18,18 @@
 
 <body>
 <!-- Navigation-->
-<include href="include/nav.html">
+<?php echo $this->render('include/nav.html',NULL,get_defined_vars(),0); ?>
 
 <!-- Blog posts -->
     <div class="container col-md-9 col-xs-12 page-container"> <!-- main body container --> 
 			<div class="row">
-				<repeat group="{{ @content }}" value="{{ @blogger }}">
+				<?php foreach (($content?:[]) as $blogger): ?>
 					<div class="post-box col-md-4 col-sm-6"> <!-- post boxes -->
 						<div class="post"> <!-- post content -->
-							<img src="{{ @blogger->getPortrait() }}" alt="user2.png" height="150px" width="150px" />
-							<p class="center">{{ @blogger->getName() }}</p>
+							<img src="<?= $blogger->getPortrait() ?>" alt="user2.png" height="150px" width="150px" />
+							<p class="center"><?= $blogger->getName() ?></p>
 							<p class="top-bottom-border extend pull"><a href="#">view blogs</a> <!-- /328/pages/user_blogs -->
-							<span class="pull-right">Total: {{ @blogger->getBlogCounter() }}</span></p>
+							<span class="pull-right">Total: <?= $blogger->getBlogCounter() ?></span></p>
 							<div class="blog-text">
 								<p>Something from my latest blog:<br>
 								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac aliquam diam, in venenatis quam.
@@ -37,7 +37,7 @@
 							</div>	
 						</div> <!-- post content -->
 					</div>
-				</repeat>
+				<?php endforeach; ?>
 			</div>
 		</div>		
 				
