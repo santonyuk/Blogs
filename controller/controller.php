@@ -24,11 +24,19 @@ $f3->route('GET /',
 		
 		foreach($contents as $key)
 		{
-			$blogger = new Blogger(0, $key['username'],
-								   $key['name'], $key['portrait'],
+			$blogger = new Blogger($key['id'], $key['username'], $key['portrait'],
 								   $key['bio'], $key['blogCounter']);
 			
 			array_push($bloggers, $blogger);
+			
+			$mostRecent = $GLOBALS['blogsDB']->getMostRecentPost($blogger);
+			
+			if($mostRecent == null) {
+				$blogger->setMostRecent("No posts yet.");
+			}
+			else {
+				$blogger->setMostRecent($mostRecent[0]['content']);
+			}
 		}
 		
 		$f3->set('content', $bloggers);
@@ -43,8 +51,8 @@ $f3->route('GET /about',
 	});
 
 $f3->route('GET /user-blogs',
-	function() {
-		
+	function($f3) {
+		$f3->set('user', $_SESSION['user']);
 		
 		echo Template::instance()->render('pages/user-blogs.html');
 	});
@@ -57,7 +65,22 @@ $f3->route('GET /signin',
 
 $f3->route('POST /verify-user',
 	function(){
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$password = sha1($password);
 		
+		$results = $GLOBALS['blogsDB']->verifyUser($username, $password);
+		$route = $results[1];
+		
+		if ($results[0])
+		{
+			$userData = $GLOBALS['blogsDB']->getUserByUsername($username);
+			$blogger = new Blogger($userData[0]['id'], $userData[0]['username'], $userData[0]['portrait'],
+								   $userData[0]['bio'], $userData[0]['blogCounter'], $userData[0]['mostRecent']);
+			$_SESSION['user'] = $blogger;
+		}
+		
+		header("$route");
 	});
 
 $f3->route('POST /',

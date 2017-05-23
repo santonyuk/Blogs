@@ -27,13 +27,12 @@
 					<div class="post-box col-md-4 col-sm-6"> <!-- post boxes -->
 						<div class="post"> <!-- post content -->
 							<img src="<?= $blogger->getPortrait() ?>" alt="user2.png" height="150px" width="150px" />
-							<p class="center"><?= $blogger->getName() ?></p>
+							<p class="center"><?= $blogger->getUserName() ?></p>
 							<p class="top-bottom-border extend pull"><a href="#">view blogs</a> <!-- /328/pages/user_blogs -->
 							<span class="pull-right">Total: <?= $blogger->getBlogCounter() ?></span></p>
 							<div class="blog-text">
 								<p>Something from my latest blog:<br>
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac aliquam diam, in venenatis quam.
-								Proin suscipit nulla et risus dictum gravida."</p>
+								<?= $blogger->getMostRecent() ?></p>
 							</div>	
 						</div> <!-- post content -->
 					</div>

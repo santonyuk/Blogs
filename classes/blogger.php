@@ -9,7 +9,7 @@ class Blogger {
 	private $_mostRecent;
 	
 	public function __construct($bloggerId=0, $username="", $portrait="",
-								$bio="", $counter="", $mostRecent=0) {
+								$bio="", $counter="", $mostRecent="0000-00-00") {
 		$this->_bloggerId = $bloggerId;
 		$this->_username = $username;
 		$this->_portrait = $portrait;

@@ -18,12 +18,12 @@
 
 <body>
 	<!-- navbar -->
-<include href="include/nav.html">
+<?php echo $this->render('include/nav.html',NULL,get_defined_vars(),0); ?>
 	
 <div class="container"><!-- main container  -->
 	<div class="row col-sm-10 page-container"><!-- page heading box -->
 		<div class="jumbotron left-margin-20 top-margin-30">
-			<div class="col-md-12 text-center"><h3><strong>{{ @user->getUsername() }}</strong></h3></div>
+			<div class="col-md-12 text-center"><h3><strong><?= $user->getUsername() ?></strong></h3></div>
   		</div>
 	</div>
 </div>

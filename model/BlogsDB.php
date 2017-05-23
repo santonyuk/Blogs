@@ -68,13 +68,84 @@ class BlogsDB
 		//Return ID of inserted row
 		 return $results;
 	 }
+	 
+	public function getUserByUsername($username)
+	{
+		//create query
+		$query = "SELECT id FROM users WHERE username = :username";
+		
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind parameter
+		$statement->bindValue(':username', $username, PDO::PARAM_STR);
+		
+		//bind param
+		
+		//execute
+		$statement->execute();
+		
+		//retrieve results
+		$results = $statement->fetch(PDO::FETCH_ASSOC);
+		
+		//create query
+		$query = "SELECT * FROM blogger WHERE id = :id";
+           
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind parameter
+		$statement->bindValue(':id', $results['id'], PDO::PARAM_STR);
+		//execute
+		
+		$statement->execute();
+		
+		//retrieve results
+		$results = $statement->fetchAll(PDO::FETCH_ASSOC);
+		
+		return $results;
+	}
+	public function verifyUser($username, $password)
+	{
+		//create query
+		$query = "SELECT * FROM users";
+           
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind param
+		
+		//execute
+		$statement->execute();
+		
+		//retrieve results
+		$results = $statement->fetchAll(PDO::FETCH_ASSOC);
+		
+		//loop through all the results and compare
+		$found = false;
+		
+		foreach($results as $row)
+		{
+			if ($username == $row['username'])
+			{
+				if ($password == $row['password'])
+				{
+					$found = true;
+					break;
+				}
+				break;
+			}
+		}
+		if ($found = false)
+		{
+			return array(false, "Location: http://sofiya.greenrivertech.net/328/Blogs/signin");
+		}
+		return array(true, "Location: http://sofiya.greenrivertech.net/328/Blogs/user-blogs");
+	}
 	
 	public function createUser($newUser, $email, $password)
 	{
 		
-		echo "<pre>";
-		var_dump($newUser);
-		echo "</pre>";
 		
 		//create query
 		$query = "INSERT INTO users
@@ -115,5 +186,28 @@ class BlogsDB
 		
 		//execute
 		$statement->execute();
+	}
+	
+	public function getMostRecentPost($user)
+	{
+		//query
+		$query = "SELECT blogpost.postId, title, content, dateCreated FROM blogpost
+			JOIN blogger_to_blogpost_junct
+				ON blogpost.postId = blogger_to_blogpost_junct.postId
+				WHERE id = :id ORDER BY postId DESC LIMIT 1";
+		
+		//prepare statement
+		$statement = $this->_pdo->prepare($query);
+		
+		//bind parameters
+		$statement->bindValue(':id', $user->getBloggerId(), PDO::PARAM_INT);
+		
+		//execute
+		$statement->execute();
+		
+		//retrieve results
+		$results = $statement->fetchAll(PDO::FETCH_ASSOC);
+		
+		return $results;
 	}
 }
