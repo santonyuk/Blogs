@@ -513,3 +513,99 @@
 [23-May-2017 03:29:49 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 26
 [23-May-2017 03:29:49 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
 [23-May-2017 03:29:49 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:26] 
+[23-May-2017 08:23:22 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 35
+[23-May-2017 08:23:22 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:23:22 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:35] 
+[23-May-2017 08:23:40 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 35
+[23-May-2017 08:23:40 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:23:40 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:35] 
+[23-May-2017 08:24:39 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 35
+[23-May-2017 08:24:39 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:24:39 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:35] 
+[23-May-2017 08:25:40 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 33
+[23-May-2017 08:25:40 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:25:40 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:33] 
+[23-May-2017 08:26:28 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 33
+[23-May-2017 08:26:28 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:26:28 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:33] 
+[23-May-2017 08:27:45 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 34
+[23-May-2017 08:27:45 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:27:45 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:34] 
+[23-May-2017 08:28:00 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 34
+[23-May-2017 08:28:00 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:28:00 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:34] 
+[23-May-2017 08:30:07 America/Chicago] PHP Fatal error:  Call to a member function getBloggerId() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 34
+[23-May-2017 08:30:07 America/Chicago] Fatal error: Call to a member function getBloggerId() on a non-object
+[23-May-2017 08:30:07 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:34] 
+[23-May-2017 08:38:40 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:38:40 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:38:40 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:38:54 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:38:54 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:38:54 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:39:04 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:39:04 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:39:04 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:39:10 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:39:10 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:39:10 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:39:35 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:39:35 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:39:35 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:40:37 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 60
+[23-May-2017 08:40:37 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:40:37 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:60] 
+[23-May-2017 08:41:06 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 58
+[23-May-2017 08:41:06 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:41:06 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:58] 
+[23-May-2017 08:41:38 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 58
+[23-May-2017 08:41:38 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:41:38 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:58] 
+[23-May-2017 08:44:13 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 57
+[23-May-2017 08:44:13 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:44:13 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:57] 
+[23-May-2017 08:44:27 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:44:27 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:44:27 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:45:13 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:45:13 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:45:13 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:45:51 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:45:51 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:45:51 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:46:15 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:46:15 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:46:15 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:48:17 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:48:17 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:48:17 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:49:09 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:49:09 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:49:09 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:49:31 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:49:31 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:49:31 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:50:14 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:50:14 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:50:14 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:52:49 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 59
+[23-May-2017 08:52:49 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:52:49 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:59] 
+[23-May-2017 08:52:55 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 59
+[23-May-2017 08:52:55 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:52:55 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:59] 
+[23-May-2017 08:54:05 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 58
+[23-May-2017 08:54:05 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:54:05 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:58] 
+[23-May-2017 08:54:27 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 56
+[23-May-2017 08:54:27 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 08:54:27 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:56] 
+[23-May-2017 08:56:06 America/Chicago] PHP Fatal error:  Call to a member function getBio() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 57
+[23-May-2017 08:56:06 America/Chicago] Fatal error: Call to a member function getBio() on a non-object
+[23-May-2017 08:56:06 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:57] 
+[23-May-2017 09:01:57 America/Chicago] PHP Fatal error:  Call to a member function getName() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 49
+[23-May-2017 09:01:57 America/Chicago] Fatal error: Call to a member function getName() on a non-object
+[23-May-2017 09:01:57 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:49] 
+[23-May-2017 09:02:31 America/Chicago] PHP Fatal error:  Call to a member function getUsername() on a non-object in /home/sofiya/public_html/328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php on line 49
+[23-May-2017 09:02:31 America/Chicago] Fatal error: Call to a member function getUsername() on a non-object
+[23-May-2017 09:02:31 America/Chicago] [328/Blogs/tmp/le0z6wlsppv4.wskbfwx1s1j3.php:49] 

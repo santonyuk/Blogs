@@ -20,13 +20,37 @@
 	<!-- navbar -->
 <include href="include/nav.html">
 	
-<div class="container"><!-- main container  -->
+<div class="container"><!-- main container from nav -->
 	<div class="row col-sm-10 page-container"><!-- page heading box -->
 		<div class="jumbotron left-margin-20 top-margin-30">
-			<div class="col-md-12 text-center"><h3><strong>{{ @user->getUsername() }}</strong></h3></div>
-  		</div>
+			<div class="row">
+					<h2>Your blogs</h2>
+					<img src="images/user2.png" alt="User Portrait" class="img-responsive pull-right" width="150" height="150">
+			</div>
+		</div>
+	</div><!-- page heading box -->
+	<div class="row top-margin-10 left-margin-20">
+		<div class="col-md-8">
+			<div class="row top-margin-30">
+				<div class="col-md-10 col-md-offset-1">
+					<table class="table"> <!-- Add title function into table -->
+						<thead>
+							<tr>
+								<th>Blog</th>
+								<th>Update</th>
+								<th>Delete</th>
+							</tr>
+							</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="extend"><!-- right bio box -->
+			<h3><strong>Username</strong></h3>
+			<p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div><!-- right bio box -->
 	</div>
-</div>
+</div><!-- main container -->
 
 </body>
 </html>

@@ -7,13 +7,6 @@
  */
 
 /**
-*CREATE TABLE `Members`
-*   ( `member_id` INT NOT NULL AUTO_INCREMENT , `fname` TEXT NOT NULL ,
-*    `lname` TEXT NOT NULL , `age` TINYINT NOT NULL ,
-*    `gender` TEXT , `phone` VARCHAR(14),
-*    `email` VARCHAR(30), `state` TEXT, `seeking` TEXT,
-*    `bio` VARCHAR(255), `premium` TINYINT(1) NOT NULL , `image` VARCHAR(100),
-*    `interests` VARCHAR(255), PRIMARY KEY (`member_id`) ) ENGINE = MyISAM;
 *
 *    Class provides access to member names in our database
 *    @author Sofiya Antonyuk <santonyuk2@mail.greenriver.edu>
